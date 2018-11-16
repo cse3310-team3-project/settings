@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/subtitleChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/change_password"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/oldPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/old_password"
+                android:inputType="textPassword" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/newPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/new_password"
+                android:inputType="textPassword" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/type_in_your_new_password_again"
+                android:inputType="textPassword" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <TextView
+                android:id="@+id/subtitleOther"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/other"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="247dp"
+                android:layout_marginStart="20dp" />
+
+            <EditText
+                android:id="@+id/firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="287dp"
+                android:layout_marginStart="50dp" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="393dp" />
+
+            <EditText
+                android:id="@+id/emailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="408dp"
+                android:layout_marginStart="50dp" />
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="453dp" />
+
+            <EditText
+                android:id="@+id/lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="347dp"
+                android:layout_marginStart="50dp" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="332dp" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                tools:layout_editor_absoluteY="468dp"
+                android:layout_marginStart="50dp"
+                android:autofillHints="" />
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="511dp" />
+
+            <TextView
+                android:id="@+id/subtitleProfilePic"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/profile_picture"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/this_where_your_profile_picture_is_displayed_in_the_settings_you_can_change_it_if_you_wish"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <View
+                android:id="@+id/divider15"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="511dp" />
+
+            <Button
+                android:id="@+id/chooseNewProfilePicButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="@string/choose_new_profile_picture"
+                android:textAllCaps="false" />
+
+            <View
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="511dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cancel"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/saveChangesButton"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/save_changes"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="511dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

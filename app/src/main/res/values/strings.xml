@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Settings</string>
+    <string name="update_profile">Update profile</string>
+    <string name="language">Language</string>
+    <string name="text_size">Text size</string>
+    <string name="request_feature">Request feature</string>
+    <string name="support">Support</string>
+    <string name="change_log">Change log</string>
+    <string name="log_out">Log out</string>
+    <string name="old_password">Old password</string>
+    <string name="password">Password</string>
+    <string name="change_password">Change password</string>
+    <string name="type_in_your_new_password_again">Type in your new password again</string>
+    <string name="new_password">New password</string>
+    <string name="other">Other</string>
+    <string name="last_name">Last name</string>
+    <string name="email_address">Email address</string>
+    <string name="first_name">First name</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="phone_number">Phone number</string>
+    <string name="choose_new_profile_picture">Choose new profile picture</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_changes">Save changes</string>
+    <string name="this_where_your_profile_picture_is_displayed_in_the_settings_you_can_change_it_if_you_wish">This where your profile picture is displayed in the settings. You can change it if you wish.</string>
+</resources>
